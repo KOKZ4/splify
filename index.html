@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Splify</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script defer src="script.js"></script>
+    <script defer src="https://unpkg.com/swup@4"></script>
+</head>
+<body class="">
+<div class="container">
+    <header>
+    <div class="free">
+        <div>
+            free delivery when you spend R500 +
+        </div>
+    </div>
+    <div class="cover">
+        <div class="navbar">
+            <div class="menu">
+                <div class="menu-bar"> menu</div>
+                <div class="logo"></div>
+                <div class="left">
+                    <div class="login">login</div>
+                    <button data-modal-target="#modal" class="cart">cart</button>
+                </div>
+            </div>
+        </div>    
+    </div>
+
+    <div class="top">
+        <button onclick="startAnimate()">some text</button>
+        <img id="goofy" src="./images/goofy/1.png"/>
+        <video class="video" autoplay loop muted >
+            <source src="images/y2mate.com - Cartoon Cloud background  Free motion graphics clouds overlay  After Effects Clouds animation_1080p.mp4" type="video/mp4">
+        </video>
+    </div>
+</header>
+</div>
+
+<div class="modal" id="modal">
+  <div class="cart-header">
+    <div class="cart-title">Your cart</div>
+    <button data-close-button class="close-button">&times;</button>
+  </div>
+  <div class="list-items">
+
+  </div>    
+  <div class="checkout">
+    <div class="amount">
+        <div>Estimated total</div>
+        <div class="total">R300.93</div>
+    </div>
+    <a href="#" class="checkout-button button">CHECK OUT SECURELY</a>
+    
+  </div>
+</div>
+<div id="overlay"></div>
+  
+
+</body>
+</html>
